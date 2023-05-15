@@ -1,6 +1,5 @@
-import { NextPage } from 'next'
 import style from './index.module.scss'
-const Navbar: NextPage = () => {
+const Navbar = () => {
   const tabs = [
     {
       name: '网站首页',
