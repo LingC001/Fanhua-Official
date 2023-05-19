@@ -1,0 +1,23 @@
+@mixin test{
+  border: 1px solid green;
+}
+.navbar{
+  @include test;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  .logo{
+    @include test;
+    width: 200px;
+    height: 50px;
+  }
+  .tabs{
+    margin-left: 40px;
+    .tab{
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}
