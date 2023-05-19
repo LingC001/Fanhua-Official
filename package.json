@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "latest",
@@ -11,8 +12,9 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^13.2.4",
     "prettier": "^2.8.4",
-    "sass": "^1.58.3",
-    "eslint": "8.35.0"
+    "sass": "^1.58.3"
   }
 }
