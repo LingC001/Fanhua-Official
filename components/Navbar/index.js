@@ -1,4 +1,5 @@
 import style from './index.module.scss'
+import Image from "next/image";
 const Navbar = () => {
   const tabs = [
     {
@@ -16,7 +17,7 @@ const Navbar = () => {
   ]
   return (
     <div className={style.navbar}>
-      <div className={style.logo}></div>
+      <Image src="/images/logo.png" alt="logo" height={'30'} width={'160'}/>
       <div className={style.tabs}>
         {tabs.map((i) => (
           <span key={i.name} className={style.tab}>

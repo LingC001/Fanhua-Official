@@ -6,7 +6,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>首页</title>
+        <title>梵华莲花</title>
+        <link rel="icon" href="/logo.png" />
       </Head>
       <div>
         <Navbar />
