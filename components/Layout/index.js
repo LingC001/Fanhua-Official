@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <title>梵华莲花</title>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <div>
         <Navbar />
