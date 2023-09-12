@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import React from 'react'
 import Head from 'next/head'
+import styles from './layout.module.scss'
 const Layout = ({ children }) => {
   return (
     <>
@@ -11,7 +12,7 @@ const Layout = ({ children }) => {
       </Head>
       <div>
         <Navbar />
-        <main>{children}</main>
+        <main className={styles.main}>{children}</main>
         <Footer />
       </div>
     </>

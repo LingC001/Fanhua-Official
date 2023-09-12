@@ -1,0 +1,18 @@
+.swiper-image{
+  height: 500px;
+  width: auto;
+}
+.mySwiper{
+  :global{
+    .swiper-slide{
+      text-align: center;
+    }
+    .swiper-pagination-bullet-active{
+      background: var(--color-main);
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+      color: var(--color-main);
+    }
+  }
+}

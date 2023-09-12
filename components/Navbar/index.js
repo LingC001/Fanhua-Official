@@ -15,7 +15,7 @@ const Navbar = () => {
       route: '/introduction',
     },
     {
-      name: '公司产品',
+      name: '产品介绍',
       route: '/product',
     },
     {
