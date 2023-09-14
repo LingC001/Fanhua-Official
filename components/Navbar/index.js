@@ -3,8 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 const Navbar = () => {
-  // const tabs = ['首页', '公司介绍', '公司产品', '联系我们']
-
   const tabs = [
     {
       name: '首页',
