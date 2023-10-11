@@ -9,7 +9,7 @@ const Navbar = () => {
       route: '/',
     },
     {
-      name: '公司介绍',
+      name: '关于我们',
       route: '/introduction',
     },
     {
