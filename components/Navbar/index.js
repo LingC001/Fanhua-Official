@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <div className={style.navbar}>
-      <Image src="/images/logo.png" alt="logo" height={'30'} width={'160'} />
+      <Image src="/images/icon/logo.png" alt="logo" height={'30'} width={'160'} />
       <div className={style.tabs}>
         {tabs.map((i, idx) => (
           <span
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className={style['contact-box']}>
         <Image
           className={style.phone}
-          src={'/images/phone.png'}
+          src={'/images/icon/phone.png'}
           alt={'联系电话'}
           width={'20'}
           height={'20'}
