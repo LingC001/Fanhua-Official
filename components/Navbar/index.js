@@ -34,9 +34,16 @@ const Navbar = () => {
     setActive(index)
   }
 
+  // 根据路径设置导航高亮
+
   return (
     <div className={style.navbar}>
-      <Image src="/images/icon/logo.png" alt="logo" height={'30'} width={'160'} />
+      <Image
+        src="/images/icon/logo.png"
+        alt="logo"
+        height={'30'}
+        width={'160'}
+      />
       <div className={style.tabs}>
         {tabs.map((i, idx) => (
           <span
