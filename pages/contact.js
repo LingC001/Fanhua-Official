@@ -1,5 +1,12 @@
+import Bmap from "@/pages/bmap";
+
+
 const Home = () => {
-  return <div>contact</div>
+  return (
+    <div>
+      <Bmap/>
+    </div>
+  )
 }
 
 export default Home
