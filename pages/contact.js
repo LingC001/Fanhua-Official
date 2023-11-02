@@ -1,4 +1,4 @@
-import Bmap from "@/pages/bmap";
+import Bmap from "@/pages/components/BaiduMap/BaiduMap";
 
 
 const Home = () => {
