@@ -1,0 +1,15 @@
+.contact {
+  :global {
+    .section-row {
+      min-height: 500px;
+      padding: 50px;
+      .title{
+        font-size:20px;
+        color: rgb(0, 176, 80);
+        font-weight: bold;
+        text-align: center;
+        margin:8px 0;
+      }
+    }
+  }
+}
