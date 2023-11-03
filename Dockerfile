@@ -1,5 +1,5 @@
 # 1. 构建基础镜像
-FROM alpine:3.19 AS base
+FROM alpine:last-updated AS base
 #纯净版镜像
 
 ENV NODE_ENV=production \
